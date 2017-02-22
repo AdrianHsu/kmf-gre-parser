@@ -36,5 +36,6 @@ for k in range(count):
 
     if len(choice) == 0:
         choice = mydiv[0].find_all("ul", class_="sh-raido-options check")
+        print "多選題"
     if len(choice) != 0:
         print choice[0].prettify().encode('utf-8')

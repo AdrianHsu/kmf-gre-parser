@@ -1,9 +1,9 @@
-# coding=UTF-8
-
+# -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import urllib2
 import argparse
 
+print "<head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head>"
 parser = argparse.ArgumentParser()
 parser.add_argument("question_id", help="echo the string you use here")
 parser.add_argument("question_num", help="echo the string you use here")
